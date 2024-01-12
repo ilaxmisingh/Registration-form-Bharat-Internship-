@@ -4,18 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bharat internship task 1 full stack development registration form</title>
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1>REGISTRATION FORM</h1>
-    <h2>Register here </h2>
-    <ol>
-        <li>Name</li>
-        <li> Father's Name</li>
-        <li> Mother's Name</li>
-        <li>Phone number</li>
-        <li>Address</li>
-        <li>Date of birth</li>
-        <li>Gender</li>
-    </ol>
+    <div class="container"> 
+        <h1>REGISTRATION FORM</h1>
+        <p>Kindly fill your details here for registration.</p>
+       <label for="Name">
+        <b>Name</b>
+        <br>
+       </label>
+       <input type="text"
+       placeholder="Enter your name here"
+       name="Name" id ="Name" required>
+       <br>
+       <label for="Date of birth">
+        <b>Date of birth</b>
+        <br>
+       </label>
+       <input type="number"
+       placeholder="Enter your DOB here"
+       name="dateofbirth" id ="Date of birth" required>
+       <br>
+       <label for="Phone number">
+        <b>Phone number</b>
+        <br>
+       </label>
+       <input type="number"
+       placeholder="Enter your phone number here"
+       name="phone number" id ="Phone number" required>
+       <br>
+       <label for="Address">
+        <b>Address</b>
+        <br>
+       </label>
+       <input type="text"
+       placeholder="Enter your address here"
+       name="Address" id ="Address" required>
+       <br>
+       <label for="Email">
+        <b>Email</b>
+        <br>
+       </label>
+       <input type="characters"
+       placeholder="Enter your email here"
+       name="Email" id ="Email" required>
+    </div>
+    <br>
+   <button type="button">Save and submit</button>
 </body>
 </html>
