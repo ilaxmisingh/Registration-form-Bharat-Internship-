@@ -1,4 +1,5 @@
 h1{
+    
     margin: 5px;
     padding:1px;
     color:rgb(18, 18, 161);
@@ -6,13 +7,27 @@ h1{
     align-items: center;
 }
 h2{
+   
+    align-items: center;
     margin:5px;
     padding:10px;
 }
 button{
+    
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
     color: rgb(25, 194, 25);
     background-color: green;
 }
 body{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 40%;
+    margin-right: 100px;
+border-radius: 2mm;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
     background-color: lightblue;
 }
